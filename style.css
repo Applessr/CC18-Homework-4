@@ -331,7 +331,7 @@ footer {
     .f_1, .f_2, .f_3 {
         flex-direction: column;
     }
-    @media (max-width:500px) {
+    @media (max-width:550px) {
         html {
             font-size: 13px;
         }
