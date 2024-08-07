@@ -133,7 +133,7 @@ footer {
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 900px) {
     .nav:not(:last-child) {
         justify-content: center;
         align-content: flex-end;
@@ -172,7 +172,7 @@ footer {
         object-fit: cover; 
     }
 }
-@media (max-width: 767px) {
+@media (max-width:550px) {
     html {
         font-size: 13px;
     }

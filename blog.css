@@ -142,8 +142,12 @@ footer {
     .content {
         padding: 2rem 5rem;
     }
+    
+    h5 {
+        font-size: 13px;
+    }
 }
-@media (max-width:500px) {
+@media (max-width:550px) {
     html {
         font-size: 13px;
     }
@@ -174,8 +178,5 @@ footer {
         justify-content: center;
         font-size: medium;
         display: flex;
-    }
-    h5 {
-        font-size: 13px;
     }
 }
