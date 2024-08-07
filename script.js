@@ -1,5 +1,5 @@
 function navFunction() {
-    var x = document.getElementById("nav");
+    let x = document.getElementById("nav");
     if (x.className === "col") {
       x.className += " responsive";
     } else {
