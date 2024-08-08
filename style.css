@@ -193,8 +193,8 @@ body {
 .f_1 .div_pic img, .f_2 .div_pic img ,.f_3 .div_pic img {
     width: 100%;
 }
-.f_1_t h2 {
-    font-size: 26px;
+a .f_1_t h2 {
+    font-size: 32px;
     font-weight: 700;
     padding-bottom: 10px;
 }
@@ -212,7 +212,7 @@ body {
     border-radius: 50px;
     padding-top: 2px ;
 }
-.dashboard h5 {
+.dashboard h5  {
     color: rgb(154, 159, 162);
     font-weight: 400;
     padding-left: 1.8rem;
@@ -330,7 +330,7 @@ footer {
     .bottom h3 {
         text-align: center;
     }
-    .f_1, .f_2, .f_3 {
+    .f_1 a , .f_2 a, .f_3 a{
         flex-direction: column;
     }
     @media (max-width:550px) {
