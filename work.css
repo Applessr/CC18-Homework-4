@@ -69,6 +69,9 @@ h5 {
     color: #21243d;
     text-decoration: none;
 } 
+.f_1 a h2:hover, .f_2 a h2:hover, .f_3 a h2:hover, .f_4 a h2:hover {
+    color: #FF6464;
+}
 .f_1 .div_pic, .f_2 .div_pic, .f_3 .div_pic, .f_4 .div_pic{
     min-width: 246px;
     min-height: 180px;
@@ -201,5 +204,8 @@ footer {
         justify-content: center;
         font-size: medium;
         display: flex;
+    }
+    h5 {
+        font-size: 16px;
     }
 }

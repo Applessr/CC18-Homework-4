@@ -144,7 +144,7 @@ footer {
     }
     
     h5 {
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 @media (max-width:550px) {
@@ -178,5 +178,8 @@ footer {
         justify-content: center;
         font-size: medium;
         display: flex;
+    }
+    h5 {
+        font-size: 13px;
     }
 }
